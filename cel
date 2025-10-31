@@ -16,14 +16,7 @@ make install
 -------------------------------------------------
 celestia-appd versio
 -------------------------------------------
-git clone https://github.com/celestiaorg/networks
-
--------------------------------
-cd $HOME
-rm -rf networks
-git clone https://github.com/celestiaorg/networks.git
-
---------------------------
+git clone https://github.com/celestiaorg/ne-------------------
 CELESTIA_NODENAME="cjay" 
 CELESTIA_WALLET="cjay1"
 CELESTIA_CHAIN="cjay2"
