@@ -12,9 +12,7 @@ git checkout v0.6.0
 make install
 CELESTIA_NODENAME="cjay" 
 CELESTIA_WALLET="cjay1"
-CELESTIA_CHAIN="cjay2"
-CELESTIA_NODENAME="cjay" 
-CELESTIA_CHAIN="cjay2"
+CELESTIA_CHAIN="cjay2"CELESTIA_CHAIN="cjay2"
 echo 'export CELESTIA_CHAIN='$CELESTIA_CHAIN >> $HOME/.bash_profile
 echo 'export CELESTIA_NODENAME='${CELESTIA_NODENAME} >> $HOME/.bash_profile
 echo 'export CELESTIA_WALLET='${CELESTIA_WALLET} >> $HOME/.bash_profile
